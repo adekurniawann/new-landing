@@ -273,7 +273,7 @@ const ContactSocial = () => {
       <Footer>
         <h1>
           <NavLink id="logo" to="/">
-            Capture
+            ade
           </NavLink>
         </h1>
         <AddressBox>

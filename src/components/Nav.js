@@ -125,7 +125,7 @@ const Nav = () => {
       <Navbar>
         <h1>
           <NavLink id="logo" to="/">
-            Capture
+            Sigompulon
           </NavLink>
         </h1>
         <ul>

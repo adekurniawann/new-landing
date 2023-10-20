@@ -126,7 +126,7 @@ const ServicesSection = () => {
     <Services variants={fade} initial="hidden" ref={element}>
       <Description style={{ paddingRight: 0, paddingLeft: "3rem" }}>
         <h2>
-          High <span>quality</span> services
+          Daftar <span>Pedesaan</span> di Sigompulon
         </h2>
         <Cards className="cards">
           <Card className="card">
@@ -138,7 +138,7 @@ const ServicesSection = () => {
                 src={clock}
                 alt="icon"
               />
-              <h3>Performance</h3>
+              <h3>Desa Lumban Tonga</h3>
             </div>
             <p>
               We understand exactly how your videos are performing across a
@@ -148,17 +148,18 @@ const ServicesSection = () => {
           <Card className="card">
             <div className="icon">
               <img src={teamwork} alt="icon" />
-              <h3>Teamwork</h3>
+              <h3>Desa Lumban Gaol</h3>
             </div>
             <p>
               Alone we can do so little, together we can do so much. Let's work
               together and turn your ideas and dreams into reality.
             </p>
           </Card>
+          <p> </p>
           <Card className="card">
             <div className="icon">
               <img src={diaphragm} alt="icon" />
-              <h3>Equipment</h3>
+              <h3>Desa Lumban Dolok</h3>
             </div>
             <p>
               We use the best in class equipments available in the market to
@@ -168,7 +169,19 @@ const ServicesSection = () => {
           <Card className="card">
             <div className="icon">
               <img src={money} alt="icon" />
-              <h3>Affordable</h3>
+              <h3>Desa Pangurdotan</h3>
+            </div>
+            <p>
+              Our prices are never been this reasonable with a complete range of
+              packages and subscriptions we make sure that you get what you
+              spend.
+            </p>
+          </Card>
+          <p></p>
+          <Card className="card">
+            <div className="icon">
+              <img src={money} alt="icon" />
+              <h3>Desa Simardangian</h3>
             </div>
             <p>
               Our prices are never been this reasonable with a complete range of
