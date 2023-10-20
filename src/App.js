@@ -6,10 +6,12 @@ import Nav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import MovieDetail from "./pages/MovieDetail";
-import OurWork from "./pages/OurWork";
+import OurWork from "./pages/Sekolah";
+import Desa from "./pages/Desa";
 // Animation
 import { AnimatePresence } from "framer-motion";
 import Subscriptions from "./pages/Subscriptions";
+import Sekolah from "./pages/Sekolah";
 
 function App() {
   const location = useLocation();
@@ -26,8 +28,11 @@ function App() {
           <Route path="/" exact>
             <AboutUs />
           </Route>
-          <Route path="/work" exact>
-            <OurWork />
+          <Route path="/desa" exact>
+            <Desa />
+          </Route>
+          <Route path="/sekolah" exact>
+            <Sekolah />
           </Route>
           <Route path="/contact" exact>
             <ContactUs />

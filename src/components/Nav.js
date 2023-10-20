@@ -135,8 +135,13 @@ const Nav = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink className="styled-link" to="/work">
-              Our Work
+            <NavLink className="styled-link" to="/desa">
+              Desa
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="styled-link" to="/sekolah">
+              Sekolah
             </NavLink>
           </li>
           <li>

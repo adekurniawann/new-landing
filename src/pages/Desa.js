@@ -95,7 +95,7 @@ const Frame4 = styled(Frame1)`
   background-color: #8effa0;
 `;
 
-const OurWork = () => {
+const Desa = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
 
@@ -139,4 +139,4 @@ const OurWork = () => {
   );
 };
 
-export default OurWork;
+export default Desa;
