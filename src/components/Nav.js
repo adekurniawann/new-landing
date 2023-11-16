@@ -194,10 +194,10 @@ const Nav = () => {
             <li>
               <NavLink
                 className="menu-link"
-                to="/work"
+                to="/desa"
                 onClick={() => setIsClicked(!isClicked)}
                 style={(isClicked) => ({
-                  color: isClicked && path === "/work" ? "#23d997" : "#eee",
+                  color: isClicked && path === "/desa" ? "#23d997" : "#eee",
                 })}
               >
                 Desa
