@@ -160,7 +160,7 @@ const Nav = () => {
       <NavbarMobile>
         <h1>
           <NavLink id="logo" to="/">
-            Capture
+            Sigompulon
           </NavLink>
         </h1>
         <div className="box" onClick={() => setIsClicked(!isClicked)}>
@@ -200,16 +200,16 @@ const Nav = () => {
                   color: isClicked && path === "/work" ? "#23d997" : "#eee",
                 })}
               >
-                Our Work
+                Desa
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="menu-link"
-                to="/contact"
+                to="/desa"
                 onClick={() => setIsClicked(!isClicked)}
                 style={(isClicked) => ({
-                  color: isClicked && path === "/contact" ? "#23d997" : "#eee",
+                  color: isClicked && path === "/desa" ? "#23d997" : "#eee",
                 })}
               >
                 Contact Us
